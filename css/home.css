@@ -1,0 +1,53 @@
+.right-align
+{
+    float: right;
+}
+div>ul>li>a{
+    list-style: none;
+}
+.horizontal-list {
+    display: flex;
+    list-style-type: none;
+  }
+/* list theo hàng ngang */
+a 
+{
+    text-decoration: none; /* loại bỏ gạch chân */
+    color: black; /* màu xanh */
+}
+
+.button
+{
+    background-color:#395562;
+    color: aliceblue;
+}
+.input-group {
+    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    border-style: groove 2px red;
+  }
+
+  .nav-item-color{
+    color: #777777;
+  }
+
+.category-menu{
+    font-size: larger;
+    font-weight: bolder ;
+    color: white;
+}
+.category-nav-item
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    margin-left: 5%;
+    color: #777777;
+    font-weight: bold;
+    
+}
+  
